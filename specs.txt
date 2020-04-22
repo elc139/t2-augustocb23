@@ -1,0 +1,3 @@
+Processador: Intel Core i5 4590 (4C4T, 3.3GHz)
+Memória: 16GB DDR3
+SO: Ubuntu 18.04 (WSL em Windows 10 1909)
