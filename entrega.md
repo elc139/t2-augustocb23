@@ -11,3 +11,8 @@ Nome: Augusto César Bisognin
 3. Analisando os dados, percebi que o ganho é um pouco menor ao utilizar 4 threads e consideravelmente menor ao utilizar 8 threads.
 4. [Tabela de resultados](pthreads_dotprod/resultados.md)
 5. As linhas removidas fazem o controle de uma região crítica do código. Como a soma depende do valor anterior, caso a thread perca o processador após ler o valor atual e antes de salvar o novo valor, quando voltasse a executar iria atualizar o dado com um valor incorreto (ignorando as adições de outras threads durante o período que esta estava aguardando).
+
+## Questões OpemMP
+
+1. [Código](openmp/omp_dotprod.c)
+2. [Tabela de resultados](openmp/resultados.md)
